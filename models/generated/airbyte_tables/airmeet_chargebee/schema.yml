@@ -1,0 +1,53 @@
+
+version: 2
+
+models:
+  - name: invoices
+    description: "Airmeet Chargebee Invoice Data"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+  - name: payments
+    description: "Airmeet Chargebee Payment Data"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+  - name: plans
+    description: "Airmeet Chargebee Plans Data"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+  - name: customers
+    description: "Airmeet Chargebee Customers Data"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+  - name: subscriptions
+    description: "Airmeet Chargebee Subscriptions Data"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+  - name: addons
+    description: "Airmeet Chargebee Addons Data"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+

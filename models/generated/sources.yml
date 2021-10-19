@@ -1,0 +1,13 @@
+version: 2
+sources:
+- name: airmeet_chargebee
+  quoting:
+    database: true
+    schema: false
+    identifier: false
+  tables:
+  - name: _airbyte_raw_invoice
+  - name: _airbyte_raw_plan
+  - name: _airbyte_raw_customer
+  - name: _airbyte_raw_subscription
+  - name: _airbyte_raw_addon
